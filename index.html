@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/e827665ba3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a><li>
+                        <li><a href="#about">About</a><li>
+                        <li><a href="#services">Services</a><li>
+                        <li><a href="#portfolio">Portfolio</a><li>
+                        <li><a href="#contact">Contact</a><li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>    
+                    </ul> 
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>  
+                </nav> 
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span>Vure Sai</span><br>Sashank From<br> Hyderabad</h1>
+                </div>       
+            </div>    
+        </div>  
+        <!--about-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user1.png">
+                    </div>
+                    <div class="about-col-2">
+                         <h1 class="sub-title">About Me</h1>
+                        <p>An undergraduate student from Sreyas Institute of Engineering and Technology 
+                            pursuing CSE(Data Science) degree.Eager to learn new technologies and work on 
+                            interesting challenges and projects.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links" onclick="opentab('education')">Education </p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links active-link" onclick="opentab('links')">Links</p>
+
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul> 
+                                      <li><span>2020-2024</span><br>Bachelor of Technology,<br>Sreyas Institute of Engineering and Tecchnology</li>
+                                      <li><span>2018-2020</span><br>Intermediate,<br>Sri Chaitanya Junior College</li>
+                                      <li><span>2017-2018</span><br>SSC,<br>Sri Chaitanya School</li>
+  
+                                </ul>   
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul> 
+                                     <li><span>February 2023 - June 2023</span><br>Web Developer at WebLaunch India</li>
+                                </ul>   
+                            </div>
+                            <div class="tab-contents active-tab" id="links">
+                                <ul> 
+                                 <li><i class="fa-brands fa-hackerrank"></i><a href="https://www.hackerrank.com/vuresaishashank1?hr_r=1" style="color: #b54769; text-decoration: none;" target="_blank"> Hackerrank</a></li>
+                                 <li><i class="fa-brands fa-github"></i><a href="https://github.com/Sashank1209" style="color: #b54769; text-decoration: none;" target="_blank"> Github</a></li>
+                                 <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/vure-sai-sashank/" style="color: #b54769; text-decoration: none;" target="_blank"> Linkedin</a></li>
+                                 <li><i class="fa-solid fa-code"></i><a href="https://www.interviewbit.com/profile/vuresaishashank143" style="color: #b54769; text-decoration: none;" target="_blank"> InterviewBit</a></li>
+                                </ul>   
+                            </div>    
+                    </div>
+                </div>    
+            </div>    
+        </div>    
+
+        <!--services-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p> Building and maintaining functional and interactive websites using coding languages and frameworks.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python</h2>
+                        <p> Harnessing its versatility and simplicity to develop powerful and efficient software solutions, unleashing the potential of automation and data analysis for enhanced productivity and problem-solving.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>rfdgedhngfhrvdfhbdfxgfcgvdxngfchgvd
+                            gvdfgvdgvwugefgushihdweursgdwjhdwuksejdw</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                </div>    
+
+            </div>    
+        </div>
+        <!--------portfolio-------->  
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Travelers Bridge</h3>
+                            <p>Django based travelling website.</p>
+                            <a href="https://github.com/Sashank1209/TravelerBridge.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Part IT</h3>
+                            <p>A Flutter project</p>
+                            <a href="https://github.com/Sashank1209/Park-IT.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>    
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Shark</h3>
+                            <p>A web app which lets the user track all of his work.</p>
+                            <a href="https://github.com/Sashank1209/shark-python-flask.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-list" style="display: none" id="more-projects">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Smart Vote</h3>
+                            <p>A Voting website in which the user can create their own elections.</p>
+                            <a href="https://github.com/Sashank1209/smart-vote.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>To-Do Manager</h3>
+                            <p>An online web application to create, update and manage your Todo list.</p>
+                            <a href="https://github.com/Sashank1209/Wd-TodoManager.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>    
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Registration Form</h3>
+                            <p>A simple registration form which was my first project.</p>
+                            <a href="https://github.com/Sashank1209/regform.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a onclick="seeMore()" class="btn">More projects</a>
+            </div>    
+        </div>  
+        <!------------contact--------------> 
+        <div id="contact">
+          <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1> 
+                   <p><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=jrjtXFCLGzGxwqqJgcxSBxMWJSKVplzBpsmQmwVplcLgCSwBqzCKFVQBxDwbLMVxXdXjNrXr" style="color: white;"><i class="fa-solid fa-paper-plane"></i>saisashankvure@gmail.com</a></p>
+                   <p><a href="tel:+919704044685" style="color: white;"><i class="fa-solid fa-square-phone"></i>+919704044685</a></p>
+                   <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                   </div>
+                   <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required> 
+                        <input type="email" name="E-Mail" placeholder="Your E-Mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>Copyright © Vure Sai Sashank. Made with <i class="fa-solid fa-heart"></i> by CSS</p>
+          </div>
+        </div>
+
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+     </script>
+
+     <script>
+        var sidemeu = document.getElementById("sidemenu");
+        var moreProjects = document.getElementById("more-projects");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+        function seeMore() {
+            if (moreProjects.style.display==="flex") { 
+                moreProjects.style.display = "none"; 
+            }
+            else { 
+                moreProjects.style.display="flex";
+            }
+        }
+
+     </script>
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbztUs8ce-K5K0Pr3r0pa-5NhtwqOkz3xR8kdzkw_8sMnFMdClbbSzXDpBpM_zJdv3qQNg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
